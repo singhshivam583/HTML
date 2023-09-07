@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1693576669421-dc2293cd106a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" width="400px" alt="image not found">
+    <img src="./image.jpg" width="300px" alt="not found">
+    <picture>
+        <source media="(min-width:600px)" srcset="./image.jpg"/>
+        <source media="(min-width:460px)" srcset="./image.jpg"/>
+        <img src="./image.jpg" alt="">
+    </picture><br/>
+    <!-- Image map Generator -->
+    <p>Click on Image</p>
+    <img src="image.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="eye()" target="" alt="" title="" href="" coords="136,65,113,44" shape="rect">
+        <area onclick="nose()" target="" alt="" title="" href="" coords="83,90,100,103" shape="rect">
+        <area onclick="ear()" target="" alt="" title="" href="" coords="108,8,144,36" shape="rect">
+        <area onclick="mouth()" target="" alt="" title="" href=""  coords="96,114,115,102" shape="rect">
+    </map>
+</body>
+<script>
+        function eye(){
+            alert('You clicked on Eye')
+        }
+        function nose(){
+            alert('You clicked on Nose')
+        }
+        function ear(){
+            alert('You clicked on Ear')
+        }
+        function mouth(){
+            alert('You clicked on Mouth')
+        }
+</script>
+</html>
