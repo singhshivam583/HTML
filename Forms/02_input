@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <style>
+        #cities{
+            height:20px;
+            overflow-y: auto;
+            width:auto;
+          }
+          option{
+            overflow-y:scroll;
+          }
+    </style> -->
 </head>
 <body>
     <h1>Forms in HTML</h1>
@@ -35,6 +45,23 @@
             <option value="Delhi">Dehradun</option>
             <option value="Delhi">Noida</option>
             <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
+            <option value="Delhi">Agra</option>
         </select><br>
         <!-- Rarely Used -->
         <input list="editors" name="editors">
@@ -42,7 +69,10 @@
             <option value="VS-Code">VS-Code</option>
             <option value="Replit">Replit</option>
             <option value="Sublime">Sublime</option>
-        </datalist>
+        </datalist><br>
+        <!--  -->
+        <label for="sound">Sound:</label>
+        <input type="range" name="" id="sound" min="0" max="10" value="6">
 
     </form>
 </body>
