@@ -11,10 +11,39 @@
     <form action="url" method="GET" accept-charset="utf-8" autocomplete="off" enctype="" target="" >
         <label for="firstname">First Name:</label><br>
         <input type="text" placeholder="Name" name="" id="firstname"><br>
+
         <button type="submit">Submit</button>
-        <input type="reset" value="Reset">
+        <button type="reset" value="Reset">Reset</button>
+
         <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br>
+
         <input type="week" name="" id="week">
+        <input type="date" name="" id=""><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" name="" id="password"><br>
+
+        <label for="cities">City Name:</label>
+        <select name="city" id="cities">
+            <option value="Delhi">Delhi</option>
+            <option value="Delhi">Lucknow</option>
+            <option value="Delhi">Chandigarh</option>
+            <option value="Delhi">Mumbai</option>
+            <option value="Delhi">Chennai</option>
+            <option value="Delhi">Goa</option>
+            <option value="Delhi">Dehradun</option>
+            <option value="Delhi">Noida</option>
+            <option value="Delhi">Agra</option>
+        </select><br>
+        <!-- Rarely Used -->
+        <input list="editors" name="editors">
+        <datalist id="editors">
+            <option value="VS-Code">VS-Code</option>
+            <option value="Replit">Replit</option>
+            <option value="Sublime">Sublime</option>
+        </datalist>
+
     </form>
 </body>
 </html>
