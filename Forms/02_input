@@ -16,7 +16,7 @@
     </style> -->
 </head>
 <body>
-    <h1>Forms in HTML</h1>
+    <h1>Inputs in HTML</h1>
 
     <form action="url" method="GET" accept-charset="utf-8" autocomplete="off" enctype="" target="" >
         <label for="firstname">First Name:</label><br>
